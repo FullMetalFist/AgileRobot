@@ -10,12 +10,18 @@ import SwiftUI
 struct ScrumView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            ProgressView(value: 5, total: 15)
+            HStack {
+                VStack {
+                    Text("Seconds Elapsed")
+                    Label("300", systemImage: "hourglass.bottomhalf.fill")
+                }
+                VStack {
+                    Text("Seconds Remaining")
+                    Label("600", systemImage: "hourglass.tophalf.fill")
+                }
+            }
         }
-        .padding()
     }
 }
 
