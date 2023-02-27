@@ -6,7 +6,7 @@
 
 ## SwiftUI Essentials
 - [x] [Getting started with AgileRobot](https://developer.apple.com/tutorials/app-dev-training/getting-started-with-scrumdinger)
-- [ ] [Using stacks to arrange views](https://developer.apple.com/tutorials/app-dev-training/using-stacks-to-arrange-views)
+- [x] [Using stacks to arrange views](https://developer.apple.com/tutorials/app-dev-training/using-stacks-to-arrange-views)
 
 ## Views
 - [ ] [Creating a card view](https://developer.apple.com/tutorials/app-dev-training/creating-a-card-view)
