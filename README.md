@@ -9,5 +9,26 @@
 - [x] [Using stacks to arrange views](https://developer.apple.com/tutorials/app-dev-training/using-stacks-to-arrange-views)
 
 ## Views
-- [ ] [Creating a card view](https://developer.apple.com/tutorials/app-dev-training/creating-a-card-view)
-- [ ] [Displaying data in a list](https://developer.apple.com/tutorials/app-dev-training/displaying-data-in-a-list)
+- [x] [Creating a card view](https://developer.apple.com/tutorials/app-dev-training/creating-a-card-view)
+- [x] [Displaying data in a list](https://developer.apple.com/tutorials/app-dev-training/displaying-data-in-a-list)
+
+## Navigation and modal presentation
+- [ ] [Creating a navigation hierarchy](https://developer.apple.com/tutorials/app-dev-training/creating-a-navigation-hierarchy)
+- [ ] [Managing data flow between views](https://developer.apple.com/tutorials/app-dev-training/managing-data-flow-between-views)
+- [ ] [Creating the edit view](https://developer.apple.com/tutorials/app-dev-training/creating-the-edit-view)
+
+## Passing data
+- [ ] [Passing data with bindings](https://developer.apple.com/tutorials/app-dev-training/passing-data-with-bindings)
+
+## State management
+- [ ] [Making classes observable](https://developer.apple.com/tutorials/app-dev-training/making-classes-observable)
+- [ ] [Responding to events](https://developer.apple.com/tutorials/app-dev-training/responding-to-events)
+- [ ] [Managing state and life cycle](https://developer.apple.com/tutorials/app-dev-training/managing-state-and-life-cycle)
+- [ ] [Updating app data](https://developer.apple.com/tutorials/app-dev-training/updating-app-data)
+
+## Persistence and concurrency
+- [ ] [Persisting data](https://developer.apple.com/tutorials/app-dev-training/persisting-data)
+- [ ] [Adopting new API features](https://developer.apple.com/tutorials/app-dev-training/adopting-new-api-features)
+- [ ] [Adopting Swift concurrency](https://developer.apple.com/tutorials/app-dev-training/adopting-swift-concurrency)
+- [ ] [Modernizing asynchronous code](https://developer.apple.com/tutorials/app-dev-training/modernizing-asynchronous-code)
+- [ ] [Handling errors](https://developer.apple.com/tutorials/app-dev-training/handling-errors)
