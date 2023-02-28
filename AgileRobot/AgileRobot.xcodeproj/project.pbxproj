@@ -18,6 +18,7 @@
 		99BE4AE729AD18F300441BDA /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE4AE629AD18F300441BDA /* DailyScrum.swift */; };
 		99BE4AE929AD1DEF00441BDA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE4AE829AD1DEF00441BDA /* CardView.swift */; };
 		99BE4AEB29AD2A6E00441BDA /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE4AEA29AD2A6E00441BDA /* TrailingIconLabelStyle.swift */; };
+		99BE4AED29AE54B000441BDA /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE4AEC29AE54B000441BDA /* ScrumsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		99BE4AE629AD18F300441BDA /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		99BE4AE829AD1DEF00441BDA /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		99BE4AEA29AD2A6E00441BDA /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		99BE4AEC29AE54B000441BDA /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +106,7 @@
 			children = (
 				99BE4AE329AD164400441BDA /* Models */,
 				99BE4AB929AABCDD00441BDA /* AgileRobotApp.swift */,
-				99BE4ABB29AABCDD00441BDA /* ScrumView.swift */,
+				99BE4AEC29AE54B000441BDA /* ScrumsView.swift */,
 				99BE4AE829AD1DEF00441BDA /* CardView.swift */,
 				99BE4AEA29AD2A6E00441BDA /* TrailingIconLabelStyle.swift */,
 				99BE4ABD29AABCDE00441BDA /* Assets.xcassets */,
@@ -141,8 +143,9 @@
 		99BE4AE329AD164400441BDA /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				99BE4AE429AD165300441BDA /* Theme.swift */,
 				99BE4AE629AD18F300441BDA /* DailyScrum.swift */,
+				99BE4AE429AD165300441BDA /* Theme.swift */,
+				99BE4ABB29AABCDD00441BDA /* ScrumView.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				99BE4AE729AD18F300441BDA /* DailyScrum.swift in Sources */,
 				99BE4AEB29AD2A6E00441BDA /* TrailingIconLabelStyle.swift in Sources */,
 				99BE4AE529AD165300441BDA /* Theme.swift in Sources */,
+				99BE4AED29AE54B000441BDA /* ScrumsView.swift in Sources */,
 				99BE4ABC29AABCDD00441BDA /* ScrumView.swift in Sources */,
 				99BE4ABA29AABCDD00441BDA /* AgileRobotApp.swift in Sources */,
 				99BE4AE929AD1DEF00441BDA /* CardView.swift in Sources */,

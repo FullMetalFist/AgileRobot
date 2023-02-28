@@ -11,7 +11,7 @@ import SwiftUI
 struct AgileRobotApp: App {
     var body: some Scene {
         WindowGroup {
-            ScrumView()
+            ScrumsView(scrums: DailyScrum.sampleData)
         }
     }
 }
