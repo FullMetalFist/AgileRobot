@@ -32,6 +32,6 @@ enum Theme: String {
         }
     }
     var mainColor: Color {
-        Color(rawValue)
+        Color(rawValue).opacity(0.5)
     }
 }
