@@ -13,7 +13,7 @@
 - [x] [Displaying data in a list](https://developer.apple.com/tutorials/app-dev-training/displaying-data-in-a-list)
 
 ## Navigation and modal presentation
-- [ ] [Creating a navigation hierarchy](https://developer.apple.com/tutorials/app-dev-training/creating-a-navigation-hierarchy)
+- [x] [Creating a navigation hierarchy](https://developer.apple.com/tutorials/app-dev-training/creating-a-navigation-hierarchy)
 - [ ] [Managing data flow between views](https://developer.apple.com/tutorials/app-dev-training/managing-data-flow-between-views)
 - [ ] [Creating the edit view](https://developer.apple.com/tutorials/app-dev-training/creating-the-edit-view)
 
