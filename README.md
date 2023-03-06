@@ -15,7 +15,7 @@
 ## Navigation and modal presentation
 - [x] [Creating a navigation hierarchy](https://developer.apple.com/tutorials/app-dev-training/creating-a-navigation-hierarchy)
 - [x] [Managing data flow between views](https://developer.apple.com/tutorials/app-dev-training/managing-data-flow-between-views)
-- [ ] [Creating the edit view](https://developer.apple.com/tutorials/app-dev-training/creating-the-edit-view)
+- [x] [Creating the edit view](https://developer.apple.com/tutorials/app-dev-training/creating-the-edit-view)
 
 ## Passing data
 - [ ] [Passing data with bindings](https://developer.apple.com/tutorials/app-dev-training/passing-data-with-bindings)
