@@ -9,10 +9,11 @@ import SwiftUI
 
 @main
 struct AgileRobotApp: App {
+    @State private var standups = DailyScrum.sampleData
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                ScrumsView(scrums: DailyScrum.sampleData)
+                ScrumsView(scrums: $standups)
             }
         }
     }

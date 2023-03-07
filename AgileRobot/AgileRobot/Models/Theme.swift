@@ -32,7 +32,7 @@ enum Theme: String, CaseIterable, Identifiable {
         }
     }
     var mainColor: Color {
-        Color(rawValue).opacity(0.9)
+        Color(rawValue).opacity(0.7)
     }
     var name: String {
         rawValue.capitalized

@@ -18,7 +18,7 @@
 - [x] [Creating the edit view](https://developer.apple.com/tutorials/app-dev-training/creating-the-edit-view)
 
 ## Passing data
-- [ ] [Passing data with bindings](https://developer.apple.com/tutorials/app-dev-training/passing-data-with-bindings)
+- [x] [Passing data with bindings](https://developer.apple.com/tutorials/app-dev-training/passing-data-with-bindings)
 
 ## State management
 - [ ] [Making classes observable](https://developer.apple.com/tutorials/app-dev-training/making-classes-observable)
