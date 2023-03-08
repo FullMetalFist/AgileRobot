@@ -33,20 +33,27 @@ struct ScrumView: View {
                 .accessibilityElement(children: .ignore)
                 .accessibilityLabel("Time remaining")
                 .accessibilityValue("10 minutes")
-                Circle()
-                    .strokeBorder(lineWidth: 24)
-                HStack {
-                    Text("Speaker 1 of 3")
-                    Spacer()
-                    Button(action: {}) {
-                        Image(systemName: "forward.fill")
-                    }
-                    .accessibilityLabel("Next speaker")
-                }
+//                Circle()
+//                    .strokeBorder(lineWidth: 24)
+//                HStack {
+//                    Text("Speaker 1 of 3")
+//                    Spacer()
+//                    Button(action: {}) {
+//                        Image(systemName: "forward.fill")
+//                    }
+//                    .accessibilityLabel("Next speaker")
+//                }
             }
         }
         .padding()
         .foregroundColor(standup.theme.accentColor)
+        .onAppear {
+            scrumTimer.reset(lengthInMinutes: scrumTimer.lengthInMinutes, attendees: standup.attendees)
+            scrumTimer.startScrum()
+        }
+        .onDisappear {
+            scrumTimer.stopScrum()
+        }
         .navigationBarTitleDisplayMode(.inline)
     }
 }
