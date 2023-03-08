@@ -21,9 +21,9 @@
 - [x] [Passing data with bindings](https://developer.apple.com/tutorials/app-dev-training/passing-data-with-bindings)
 
 ## State management
-- [ ] [Making classes observable](https://developer.apple.com/tutorials/app-dev-training/making-classes-observable)
-- [ ] [Responding to events](https://developer.apple.com/tutorials/app-dev-training/responding-to-events)
-- [ ] [Managing state and life cycle](https://developer.apple.com/tutorials/app-dev-training/managing-state-and-life-cycle)
+- [x] [Making classes observable](https://developer.apple.com/tutorials/app-dev-training/making-classes-observable)
+- [x] [Responding to events](https://developer.apple.com/tutorials/app-dev-training/responding-to-events)
+- [x] [Managing state and life cycle](https://developer.apple.com/tutorials/app-dev-training/managing-state-and-life-cycle)
 - [ ] [Updating app data](https://developer.apple.com/tutorials/app-dev-training/updating-app-data)
 
 ## Persistence and concurrency
