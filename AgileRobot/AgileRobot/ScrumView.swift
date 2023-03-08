@@ -9,12 +9,14 @@ import SwiftUI
 
 struct ScrumView: View {
     @Binding var standup: DailyScrum
+    @StateObject var scrumTimer = ScrumTimer()
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 16.0)
                 .fill(standup.theme.mainColor)
             VStack {
-                ProgressView(value: 5, total: 15)
+                StandupHeaderView(secondsElapsed: scrumTimer.secondsElapsed, secondsRemaining: scrumTimer.secondsRemaining, theme: standup.theme)
+                Circle().strokeBorder(lineWidth: 24, antialiased: true)
                 HStack {
                     VStack(alignment: .leading) {
                         Text("Seconds Elapsed")

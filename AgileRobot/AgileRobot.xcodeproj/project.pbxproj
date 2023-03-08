@@ -25,6 +25,7 @@
 		99BE4AED29AE54B000441BDA /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE4AEC29AE54B000441BDA /* ScrumsView.swift */; };
 		99BE4AF129B0E79400441BDA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE4AF029B0E79400441BDA /* DetailView.swift */; };
 		99EA868C29B917B900E25DC2 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EA868B29B917B900E25DC2 /* ScrumProgressViewStyle.swift */; };
+		99EA868E29B91B1800E25DC2 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EA868D29B91B1800E25DC2 /* ScrumTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		99BE4AEC29AE54B000441BDA /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		99BE4AF029B0E79400441BDA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		99EA868B29B917B900E25DC2 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
+		99EA868D29B91B1800E25DC2 /* ScrumTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				99BE4AE629AD18F300441BDA /* DailyScrum.swift */,
+				99EA868D29B91B1800E25DC2 /* ScrumTimer.swift */,
 				99BE4AE429AD165300441BDA /* Theme.swift */,
 			);
 			path = Models;
@@ -300,6 +303,7 @@
 			files = (
 				99A7488729B781B400C1E168 /* ThemePicker.swift in Sources */,
 				99EA868C29B917B900E25DC2 /* ScrumProgressViewStyle.swift in Sources */,
+				99EA868E29B91B1800E25DC2 /* ScrumTimer.swift in Sources */,
 				99BE4AE729AD18F300441BDA /* DailyScrum.swift in Sources */,
 				99BE4AF129B0E79400441BDA /* DetailView.swift in Sources */,
 				99A7488329B64BAB00C1E168 /* DetailEditView.swift in Sources */,
