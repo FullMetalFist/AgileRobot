@@ -10,6 +10,7 @@
 		99A7488329B64BAB00C1E168 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A7488229B64BAB00C1E168 /* DetailEditView.swift */; };
 		99A7488529B77FE800C1E168 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A7488429B77FE800C1E168 /* ThemeView.swift */; };
 		99A7488729B781B400C1E168 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A7488629B781B400C1E168 /* ThemePicker.swift */; };
+		99A748A329B90BEE00C1E168 /* StandupHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A748A229B90BEE00C1E168 /* StandupHeaderView.swift */; };
 		99BE4ABA29AABCDD00441BDA /* AgileRobotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE4AB929AABCDD00441BDA /* AgileRobotApp.swift */; };
 		99BE4ABC29AABCDD00441BDA /* ScrumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE4ABB29AABCDD00441BDA /* ScrumView.swift */; };
 		99BE4ABE29AABCDE00441BDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99BE4ABD29AABCDE00441BDA /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 		99A7488229B64BAB00C1E168 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		99A7488429B77FE800C1E168 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		99A7488629B781B400C1E168 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		99A748A229B90BEE00C1E168 /* StandupHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandupHeaderView.swift; sourceTree = "<group>"; };
 		99BE4AB629AABCDD00441BDA /* AgileRobot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgileRobot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99BE4AB929AABCDD00441BDA /* AgileRobotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgileRobotApp.swift; sourceTree = "<group>"; };
 		99BE4ABB29AABCDD00441BDA /* ScrumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumView.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				99BE4AF029B0E79400441BDA /* DetailView.swift */,
 				99A7488229B64BAB00C1E168 /* DetailEditView.swift */,
 				99A7488429B77FE800C1E168 /* ThemeView.swift */,
+				99A748A229B90BEE00C1E168 /* StandupHeaderView.swift */,
 				99A7488629B781B400C1E168 /* ThemePicker.swift */,
 				99BE4AEA29AD2A6E00441BDA /* TrailingIconLabelStyle.swift */,
 				99BE4ABD29AABCDE00441BDA /* Assets.xcassets */,
@@ -297,6 +300,7 @@
 				99BE4AF129B0E79400441BDA /* DetailView.swift in Sources */,
 				99A7488329B64BAB00C1E168 /* DetailEditView.swift in Sources */,
 				99BE4AEB29AD2A6E00441BDA /* TrailingIconLabelStyle.swift in Sources */,
+				99A748A329B90BEE00C1E168 /* StandupHeaderView.swift in Sources */,
 				99BE4AE529AD165300441BDA /* Theme.swift in Sources */,
 				99BE4AED29AE54B000441BDA /* ScrumsView.swift in Sources */,
 				99BE4ABC29AABCDD00441BDA /* ScrumView.swift in Sources */,
