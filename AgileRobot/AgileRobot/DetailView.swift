@@ -42,6 +42,17 @@ struct DetailView: View {
                     Label(attendee.name, systemImage: "person")
                 }
             }
+            Section(header: Text("History")) {
+                if standup.history.isEmpty {
+                    Label("No meetings yet", systemImage: "calendar.badge.exclamationmark")
+                }
+                ForEach(standup.history) { history in
+                    HStack {
+                        Image(systemName: "calendar")
+                        Text(history.date, style: .date)
+                    }
+                }
+            }
         }
         .navigationTitle(standup.title)
         .toolbar {
