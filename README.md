@@ -24,7 +24,7 @@
 - [x] [Making classes observable](https://developer.apple.com/tutorials/app-dev-training/making-classes-observable)
 - [x] [Responding to events](https://developer.apple.com/tutorials/app-dev-training/responding-to-events)
 - [x] [Managing state and life cycle](https://developer.apple.com/tutorials/app-dev-training/managing-state-and-life-cycle)
-- [x] [Updating app data](https://developer.apple.com/tutorials/app-dev-training/updating-app-data)
+- [ ] [Updating app data](https://developer.apple.com/tutorials/app-dev-training/updating-app-data)
 
 ## Persistence and concurrency
 - [ ] [Persisting data](https://developer.apple.com/tutorials/app-dev-training/persisting-data)

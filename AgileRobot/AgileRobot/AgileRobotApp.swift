@@ -13,7 +13,7 @@ struct AgileRobotApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                ScrumsView(scrums: $standups)
+                ScrumsView(standups: $standups)
             }
         }
     }
