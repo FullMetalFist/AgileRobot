@@ -27,7 +27,7 @@ struct ScrumView: View {
         .padding()
         .foregroundColor(standup.theme.accentColor)
         .onAppear {
-            scrumTimer.reset(lengthInMinutes: scrumTimer.lengthInMinutes, attendees: standup.attendees)
+            scrumTimer.reset(lengthInMinutes: standup.lengthInMinutes, attendees: standup.attendees)
             scrumTimer.speakerChangedAction = {
                 player.seek(to: .zero)
                 player.play()
