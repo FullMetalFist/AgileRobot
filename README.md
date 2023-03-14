@@ -27,7 +27,7 @@
 - [x] [Updating app data](https://developer.apple.com/tutorials/app-dev-training/updating-app-data)
 
 ## Persistence and concurrency
-- [ ] [Persisting data](https://developer.apple.com/tutorials/app-dev-training/persisting-data)
+- [x] [Persisting data](https://developer.apple.com/tutorials/app-dev-training/persisting-data)
 - [ ] [Adopting new API features](https://developer.apple.com/tutorials/app-dev-training/adopting-new-api-features)
 - [ ] [Adopting Swift concurrency](https://developer.apple.com/tutorials/app-dev-training/adopting-swift-concurrency)
 - [ ] [Modernizing asynchronous code](https://developer.apple.com/tutorials/app-dev-training/modernizing-asynchronous-code)
