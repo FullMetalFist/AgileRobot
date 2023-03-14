@@ -17,9 +17,7 @@ struct StandupHeaderView: View {
     }
     
     private var progress: Double {
-        print("\(totalSeconds)")
         guard totalSeconds > 0 else { return 1 }
-        print("\(Double(secondsElapsed) / Double(secondsRemaining))")
 
         return Double(secondsElapsed) / Double(secondsRemaining)
     }
@@ -30,7 +28,6 @@ struct StandupHeaderView: View {
     
     var body: some View {
         VStack {
-            Text("\(progress)")
             ProgressView(value: progress).progressViewStyle(ScrumProgressViewStyle(theme: theme))
             HStack {
                 VStack(alignment: .leading) {
