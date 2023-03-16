@@ -32,3 +32,11 @@
 - [x] [Adopting Swift concurrency](https://developer.apple.com/tutorials/app-dev-training/adopting-swift-concurrency)
 - [x] [Modernizing asynchronous code](https://developer.apple.com/tutorials/app-dev-training/modernizing-asynchronous-code)
 - [ ] [Handling errors](https://developer.apple.com/tutorials/app-dev-training/handling-errors)
+
+## Drawing
+- [ ] [Drawing the timer view](https://developer.apple.com/tutorials/app-dev-training/drawing-the-timer-view)
+
+## Recording Audio
+- [ ] [Examining data flow in AgileRobot](https://developer.apple.com/tutorials/app-dev-training/examining-data-flow-in-scrumdinger)
+- [ ] [Transcribing speech to text](https://developer.apple.com/tutorials/app-dev-training/transcribing-speech-to-text)
+- [ ] [Finding more resources](https://developer.apple.com/tutorials/app-dev-training/finding-more-resources)
