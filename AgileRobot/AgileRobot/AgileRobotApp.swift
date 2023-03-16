@@ -10,6 +10,8 @@ import SwiftUI
 @main
 struct AgileRobotApp: App {
     @StateObject private var store = StandupStore()
+    @State private var errorWrapper: ErrorWrapper?
+    
     var body: some Scene {
         WindowGroup {
             NavigationView {
@@ -18,7 +20,7 @@ struct AgileRobotApp: App {
                         do {
                             try await StandupStore.save(standups: store.standups)
                         } catch {
-                            fatalError("Error saving standups")
+                            errorWrapper = ErrorWrapper(error: error, guidance: "Try again later")
                         }
                     }
                 }
@@ -27,8 +29,13 @@ struct AgileRobotApp: App {
                 do {
                     store.standups = try await StandupStore.load()
                 } catch {
-                    fatalError("Error loading scrums")
+                    errorWrapper = ErrorWrapper(error: error, guidance: "AgileRobot will load sample data and continue")
                 }
+            }
+            .sheet(item: $errorWrapper, onDismiss: {
+                store.standups = DailyScrum.sampleData
+            }) { wrapper in
+                ErrorView(errorWrapper: wrapper)
             }
         }
     }

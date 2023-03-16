@@ -26,6 +26,8 @@
 		99BE4AEB29AD2A6E00441BDA /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE4AEA29AD2A6E00441BDA /* TrailingIconLabelStyle.swift */; };
 		99BE4AED29AE54B000441BDA /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE4AEC29AE54B000441BDA /* ScrumsView.swift */; };
 		99BE4AF129B0E79400441BDA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BE4AF029B0E79400441BDA /* DetailView.swift */; };
+		99DCD53E29C37016006C6523 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DCD53D29C37016006C6523 /* ErrorWrapper.swift */; };
+		99DCD54029C37078006C6523 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DCD53F29C37078006C6523 /* ErrorView.swift */; };
 		99EA868C29B917B900E25DC2 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EA868B29B917B900E25DC2 /* ScrumProgressViewStyle.swift */; };
 		99EA868E29B91B1800E25DC2 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EA868D29B91B1800E25DC2 /* ScrumTimer.swift */; };
 		99EA869029B9547300E25DC2 /* StandupFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EA868F29B9547300E25DC2 /* StandupFooterView.swift */; };
@@ -74,6 +76,8 @@
 		99BE4AEA29AD2A6E00441BDA /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		99BE4AEC29AE54B000441BDA /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		99BE4AF029B0E79400441BDA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		99DCD53D29C37016006C6523 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		99DCD53F29C37078006C6523 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		99EA868B29B917B900E25DC2 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		99EA868D29B91B1800E25DC2 /* ScrumTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 		99EA868F29B9547300E25DC2 /* StandupFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandupFooterView.swift; sourceTree = "<group>"; };
@@ -140,6 +144,7 @@
 				99A7488429B77FE800C1E168 /* ThemeView.swift */,
 				99A748A229B90BEE00C1E168 /* StandupHeaderView.swift */,
 				99EA868F29B9547300E25DC2 /* StandupFooterView.swift */,
+				99DCD53F29C37078006C6523 /* ErrorView.swift */,
 				99EA868B29B917B900E25DC2 /* ScrumProgressViewStyle.swift */,
 				99A7488629B781B400C1E168 /* ThemePicker.swift */,
 				99BE4AEA29AD2A6E00441BDA /* TrailingIconLabelStyle.swift */,
@@ -184,6 +189,7 @@
 				99EA868D29B91B1800E25DC2 /* ScrumTimer.swift */,
 				99BE4AE429AD165300441BDA /* Theme.swift */,
 				99B8A25229BF770000539CB7 /* History.swift */,
+				99DCD53D29C37016006C6523 /* ErrorWrapper.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -337,10 +343,12 @@
 				99BE4AF129B0E79400441BDA /* DetailView.swift in Sources */,
 				99A7488329B64BAB00C1E168 /* DetailEditView.swift in Sources */,
 				99BE4AEB29AD2A6E00441BDA /* TrailingIconLabelStyle.swift in Sources */,
+				99DCD53E29C37016006C6523 /* ErrorWrapper.swift in Sources */,
 				99A748A329B90BEE00C1E168 /* StandupHeaderView.swift in Sources */,
 				99BE4AE529AD165300441BDA /* Theme.swift in Sources */,
 				99BE4AED29AE54B000441BDA /* ScrumsView.swift in Sources */,
 				99BE4ABC29AABCDD00441BDA /* ScrumView.swift in Sources */,
+				99DCD54029C37078006C6523 /* ErrorView.swift in Sources */,
 				99BE4ABA29AABCDD00441BDA /* AgileRobotApp.swift in Sources */,
 				99A7488529B77FE800C1E168 /* ThemeView.swift in Sources */,
 				99BE4AE929AD1DEF00441BDA /* CardView.swift in Sources */,

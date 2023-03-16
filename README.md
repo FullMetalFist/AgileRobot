@@ -31,7 +31,7 @@
 - [x] [Adopting new API features](https://developer.apple.com/tutorials/app-dev-training/adopting-new-api-features)
 - [x] [Adopting Swift concurrency](https://developer.apple.com/tutorials/app-dev-training/adopting-swift-concurrency)
 - [x] [Modernizing asynchronous code](https://developer.apple.com/tutorials/app-dev-training/modernizing-asynchronous-code)
-- [ ] [Handling errors](https://developer.apple.com/tutorials/app-dev-training/handling-errors)
+- [x] [Handling errors](https://developer.apple.com/tutorials/app-dev-training/handling-errors)
 
 ## Drawing
 - [ ] [Drawing the timer view](https://developer.apple.com/tutorials/app-dev-training/drawing-the-timer-view)
