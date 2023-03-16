@@ -14,21 +14,20 @@ struct AgileRobotApp: App {
         WindowGroup {
             NavigationView {
                 ScrumsView(standups: $store.standups) {
-                    StandupStore.save(standups: store.standups) { result in
-                        if case .failure(let error) = result {
-                            fatalError(error.localizedDescription)
+                    Task {
+                        do {
+                            try await StandupStore.save(standups: store.standups)
+                        } catch {
+                            fatalError("Error saving standups")
                         }
                     }
                 }
             }
-            .onAppear {
-                StandupStore.load { result in
-                    switch result {
-                    case .success(let standups):
-                        store.standups = standups
-                    case .failure(let error):
-                        fatalError(error.localizedDescription)
-                    }
+            .task {
+                do {
+                    store.standups = try await StandupStore.load()
+                } catch {
+                    fatalError("Error loading scrums")
                 }
             }
         }

@@ -28,7 +28,7 @@
 
 ## Persistence and concurrency
 - [x] [Persisting data](https://developer.apple.com/tutorials/app-dev-training/persisting-data)
-- [ ] [Adopting new API features](https://developer.apple.com/tutorials/app-dev-training/adopting-new-api-features)
-- [ ] [Adopting Swift concurrency](https://developer.apple.com/tutorials/app-dev-training/adopting-swift-concurrency)
-- [ ] [Modernizing asynchronous code](https://developer.apple.com/tutorials/app-dev-training/modernizing-asynchronous-code)
+- [x] [Adopting new API features](https://developer.apple.com/tutorials/app-dev-training/adopting-new-api-features)
+- [x] [Adopting Swift concurrency](https://developer.apple.com/tutorials/app-dev-training/adopting-swift-concurrency)
+- [x] [Modernizing asynchronous code](https://developer.apple.com/tutorials/app-dev-training/modernizing-asynchronous-code)
 - [ ] [Handling errors](https://developer.apple.com/tutorials/app-dev-training/handling-errors)

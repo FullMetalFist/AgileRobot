@@ -19,6 +19,19 @@ class StandupStore: ObservableObject {
             .appendingPathComponent("standups.data")
     }
     
+    static func load() async throws -> [DailyScrum] {
+        try await withCheckedThrowingContinuation { continuation in
+            load { result in
+                switch result {
+                case .failure(let e):
+                    continuation.resume(throwing: e)
+                case .success(let standups):
+                    continuation.resume(returning: standups)
+                }
+            }
+        }
+    }
+    
     static func load(completion: @escaping (Result<[DailyScrum], Error>) -> Void) {
         DispatchQueue.global(qos: .background).async {
             do {
@@ -36,6 +49,20 @@ class StandupStore: ObservableObject {
             } catch {
                 DispatchQueue.main.async {
                     completion(.failure(error))
+                }
+            }
+        }
+    }
+    
+    @discardableResult
+    static func save(standups: [DailyScrum]) async throws -> Int {
+        try await withCheckedThrowingContinuation { continuation in
+            save(standups: standups) { result in
+                switch result {
+                case .failure(let e):
+                    continuation.resume(throwing: e)
+                case .success(let standupsSaved):
+                    continuation.resume(returning: standupsSaved)
                 }
             }
         }
