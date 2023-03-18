@@ -34,9 +34,9 @@
 - [x] [Handling errors](https://developer.apple.com/tutorials/app-dev-training/handling-errors)
 
 ## Drawing
-- [ ] [Drawing the timer view](https://developer.apple.com/tutorials/app-dev-training/drawing-the-timer-view)
+- [x] [Drawing the timer view](https://developer.apple.com/tutorials/app-dev-training/drawing-the-timer-view)
 
 ## Recording Audio
-- [ ] [Examining data flow in AgileRobot](https://developer.apple.com/tutorials/app-dev-training/examining-data-flow-in-scrumdinger)
+- [x] [Examining data flow in AgileRobot](https://developer.apple.com/tutorials/app-dev-training/examining-data-flow-in-scrumdinger)
 - [ ] [Transcribing speech to text](https://developer.apple.com/tutorials/app-dev-training/transcribing-speech-to-text)
 - [ ] [Finding more resources](https://developer.apple.com/tutorials/app-dev-training/finding-more-resources)
