@@ -38,5 +38,5 @@
 
 ## Recording Audio
 - [x] [Examining data flow in AgileRobot](https://developer.apple.com/tutorials/app-dev-training/examining-data-flow-in-scrumdinger)
-- [ ] [Transcribing speech to text](https://developer.apple.com/tutorials/app-dev-training/transcribing-speech-to-text)
-- [ ] [Finding more resources](https://developer.apple.com/tutorials/app-dev-training/finding-more-resources)
+- [x] [Transcribing speech to text](https://developer.apple.com/tutorials/app-dev-training/transcribing-speech-to-text)
+- [x] [Finding more resources](https://developer.apple.com/tutorials/app-dev-training/finding-more-resources)
