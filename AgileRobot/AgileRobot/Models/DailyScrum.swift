@@ -6,16 +6,17 @@
 //
 
 import Foundation
+import Tagged
 
 struct DailyScrum: Identifiable, Codable {
-    let id: UUID
+    let id: Tagged<Self, UUID>
     var title: String
     var attendees: [Attendee]
     var lengthInMinutes: Int
     var theme: Theme
     var history: [History] = []
     
-    init(id: UUID = UUID(), title: String, attendees: [String], lengthInMinutes: Int, theme: Theme) {
+    init(id: Tagged<Self, UUID> = Tagged<DailyScrum, UUID>(rawValue: UUID()), title: String, attendees: [String], lengthInMinutes: Int, theme: Theme) {
         self.id = id
         self.title = title
         self.attendees = attendees.map { Attendee(name: $0) }
@@ -26,10 +27,10 @@ struct DailyScrum: Identifiable, Codable {
 
 extension DailyScrum {
     struct Attendee: Identifiable, Codable {
-        let id: UUID
+        let id: Tagged<Self, UUID>
         var name: String
         
-        init(id: UUID = UUID(), name: String) {
+        init(id: Tagged<Self, UUID> = Tagged<Attendee, UUID>(rawValue: UUID()), name: String) {
             self.id = id
             self.name = name
         }
@@ -54,7 +55,7 @@ extension DailyScrum {
     }
     
     init(data: Data) {
-        id = UUID()
+        id = Tagged<DailyScrum, UUID>(rawValue: UUID())
         title = data.title
         attendees = data.attendees
         lengthInMinutes = Int(data.lengthInMinutes)

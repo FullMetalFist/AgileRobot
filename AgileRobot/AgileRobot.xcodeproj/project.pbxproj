@@ -11,6 +11,7 @@
 		99198DD929C4BEB300408A2D /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99198DD829C4BEB300408A2D /* SpeakerArc.swift */; };
 		99198DDF29C8A85A00408A2D /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99198DDE29C8A85A00408A2D /* SpeechRecognizer.swift */; };
 		99198DE129C8B08600408A2D /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99198DE029C8B08600408A2D /* HistoryView.swift */; };
+		9981898A29CA510400AB3965 /* Tagged in Frameworks */ = {isa = PBXBuildFile; productRef = 9981898929CA510400AB3965 /* Tagged */; };
 		99A7488329B64BAB00C1E168 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A7488229B64BAB00C1E168 /* DetailEditView.swift */; };
 		99A7488529B77FE800C1E168 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A7488429B77FE800C1E168 /* ThemeView.swift */; };
 		99A7488729B781B400C1E168 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A7488629B781B400C1E168 /* ThemePicker.swift */; };
@@ -98,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9981898A29CA510400AB3965 /* Tagged in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +232,9 @@
 			dependencies = (
 			);
 			name = AgileRobot;
+			packageProductDependencies = (
+				9981898929CA510400AB3965 /* Tagged */,
+			);
 			productName = AgileRobot;
 			productReference = 99BE4AB629AABCDD00441BDA /* AgileRobot.app */;
 			productType = "com.apple.product-type.application";
@@ -302,6 +307,9 @@
 				Base,
 			);
 			mainGroup = 99BE4AAD29AABCDD00441BDA;
+			packageReferences = (
+				9981898829CA510400AB3965 /* XCRemoteSwiftPackageReference "swift-tagged" */,
+			);
 			productRefGroup = 99BE4AB729AABCDD00441BDA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -697,6 +705,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9981898829CA510400AB3965 /* XCRemoteSwiftPackageReference "swift-tagged" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-tagged";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9981898929CA510400AB3965 /* Tagged */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9981898829CA510400AB3965 /* XCRemoteSwiftPackageReference "swift-tagged" */;
+			productName = Tagged;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 99BE4AAE29AABCDD00441BDA /* Project object */;
 }
